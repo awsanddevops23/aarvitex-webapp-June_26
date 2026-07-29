@@ -98,7 +98,7 @@
         <artifactId>tomcat7-maven-plugin</artifactId>
         <version>2.2</version>
         <configuration>
-          <url>http://172.31.34.133:8080/manager/text</url>
+          <url>http://3.94.86.219:8080/manager/text</url>
           <server>tomcat-server</server>
           <path>/WebApp</path>
           <update>true</update>
@@ -112,11 +112,11 @@
   <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://54.224.186.207:8081/repository/maven-snapshots/</url>
+      <url>http://3.94.86.219:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>nexus-releases</id>
-      <url>http://54.224.186.207:8081/repository/maven-releases/</url>
+      <url>http://3.94.86.219:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
 </project>
