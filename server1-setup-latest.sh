@@ -11,6 +11,7 @@
 #  Logs:  /var/log/user-data.log
 #  EC2:   t2.medium (4 GB min) | Amazon Linux 2023
 #  Ports: 8080 (Tomcat), 9000 (SonarQube), 8081 (Nexus)
+
 # ═══════════════════════════════════════════════════════════════
 set -e
 exec > /var/log/user-data.log 2>&1
